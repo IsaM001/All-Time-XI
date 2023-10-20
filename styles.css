@@ -1,0 +1,334 @@
+/* Body and Universal styling */
+
+body {
+    background: linear-gradient(to bottom, #fff, #ccc);
+    color: #333;
+    height: 100vh;
+}
+
+* {
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+}
+
+/* Nav bar */
+
+
+header {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    margin: 0;
+    padding: 15px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-left: 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Headers the main titles */
+.home-page {
+    padding-bottom: 20px;
+    margin: 0;
+    padding-top: 20px;
+    margin: 0;
+    background: linear-gradient(to bottom, #fff, #ccc); /* White to gray gradient */
+
+
+}
+
+/* Main Content */
+
+.head-content {
+padding-top: 20px;
+background: linear-gradient(to bottom, #ccc, #fff);
+}
+
+.head-content-home{
+    background: linear-gradient(to bottom, #fff, #ccc);
+    margin-bottom: 20px;
+    }
+
+
+/* CSS Grid becomes block when screen size decreases */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    grid-gap: 10px;
+  }
+
+
+
+.grid-item-one {
+    grid-column-start: 1;
+    grid-column-end: -1;
+    grid-row-gap: 20px;
+    text-align: center;
+}
+
+.grid-item-two {
+    display: grid;
+    grid-row: span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item-three {
+    grid-row: span 2;
+}
+
+.grid-item-four {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grid-item {
+    border: 2px solid black;
+}
+
+
+/* Flexbox */
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Goalkeeper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.card {
+    width: calc(25% - 20px);
+    background: linear-gradient(to bottom, #ffdb58, #ffaf00); 
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    margin-right: 5px;
+}
+
+.card h4 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.card .One {
+    max-width: 100%;
+    border-radius: 10px;
+    flex-grow: 1;
+}
+
+.card .card-text {
+    font-size: 14px;
+    margin-top: 10px;
+    flex-grow: 1;
+}
+
+/* Styling for Buttons that are on the page */
+
+.card button {
+    background-color: transparent;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.rounded-button {
+    background-color: transparent;
+    color: #000;
+    border-radius: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+    color: rebeccapurple
+    
+}
+
+
+.card button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.bigger-h5 {
+    font-size: 20px;
+}
+
+.rounded-image {
+    border-radius: 10px;
+}
+
+/* Image style for Sir Alex */
+.Alex {
+    height: 400px;
+    width: 500px;
+    border: 5px solid gold;
+    border-radius: 3%;
+    flex-grow: 1;
+}
+
+.end {
+    display: block;
+    justify-content: center;
+}
+
+.Gold {
+    color: goldenrod;;
+    background-color: black;
+    display: inline-block;
+    padding: 10px;
+    font-weight: 100;
+    font-size: larger;
+    border-radius: 5px;
+    border: 5px solid goldenrod;
+}
+
+
+/* Form */
+
+.form {
+    border: 2px solid #000;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 600px;
+    background: linear-gradient(to bottom, #ffdb58, #ffaf00); 
+}
+  
+  form {
+    margin-top: 20px;
+    
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  textarea {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    resize: vertical;
+    height: 20px;
+  }
+  
+  .opinion-contact label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .opinion-contact input[type="radio"] {
+    vertical-align: middle;
+  }
+  
+  div[label="opinion"] {
+    margin-top: 20px;
+  }
+  
+
+  /* Media query */
+
+@media only screen and (max-width: 425px) {
+    .card {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .collage {
+        width: 100%;
+        margin-bottom: 10px;
+
+    }
+
+    header nav ul {
+        flex-direction: column; 
+        align-items: center;   
+    }
+
+    header nav ul li {
+        margin: 5px 0;  
+    }
+}
+
+    .card-mention{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    @media only screen and (max-width: 525px) {
+    
+        .grid-container{
+         display: block;
+    }
+
+        .card {
+            display: flex;    
+            justify-content: center;
+    }
+    
+    .Alex {
+        width: 300px;
+        height: 200px;
+    }
+
+    .Collage{
+        height: 300px;
+        width: 300px;
+    }
+}
+

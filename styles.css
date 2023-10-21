@@ -1,7 +1,7 @@
 /* Body and Universal styling */
 
 body {
-    background: linear-gradient(135deg, #64DFDF, #72EFDD, #80FFDB);
+    background: linear-gradient(to bottom, #CFBAF0, #A3C4F3, #8EECF5);
 
     color: black;
     height: 100vh;
@@ -46,7 +46,7 @@ header nav ul li a {
     margin: 0;
     padding-top: 20px;
     margin: 0;
-    background: linear-gradient(135deg, #64DFDF, #72EFDD, #80FFDB);
+    background: linear-gradient(to top, #CFBAF0, #A3C4F3, #8EECF5);
 
 
 
@@ -56,11 +56,11 @@ header nav ul li a {
 
 .head-content {
 padding-top: 20px;
-background: linear-gradient(135deg, #64DFDF, #72EFDD, #80FFDB);
+background: linear-gradient(to bottom, #CFBAF0, #A3C4F3, #8EECF5);
 }
 
 .head-content-home{
-    background: linear-gradient(135deg, #64DFDF, #72EFDD, #80FFDB);
+    background: linear-gradient(to bottom, #CFBAF0, #A3C4F3, #8EECF5);
     margin-bottom: 20px;
     }
 
@@ -139,7 +139,7 @@ background: linear-gradient(135deg, #64DFDF, #72EFDD, #80FFDB);
 
 .card {
     width: calc(25% - 20px);
-    background: linear-gradient(135deg, #5390D9, #4EA8DE, #48BFE3);
+    background: linear-gradient(to bottom, #FBF8CC, #FDE4CF, #FFCFD2);
     padding: 10px;
     box-sizing: border-box;
     text-align: center;
@@ -240,7 +240,7 @@ background: linear-gradient(135deg, #64DFDF, #72EFDD, #80FFDB);
     padding: 20px;
     margin: 0 auto;
     max-width: 600px;
-    background: linear-gradient(135deg, #5390D9, #4EA8DE, #48BFE3);
+    background: linear-gradient(to bottom, #FBF8CC, #FDE4CF, #FFCFD2);
 }
   
   form {

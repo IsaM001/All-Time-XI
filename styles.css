@@ -1,8 +1,9 @@
 /* Body and Universal styling */
 
 body {
-    background: linear-gradient(to bottom, #fff, #ccc);
-    color: #333;
+    background: linear-gradient(to bottom, #5074b3, #3c5e9c);
+
+    color: black;
     height: 100vh;
 }
 
@@ -45,7 +46,8 @@ header nav ul li a {
     margin: 0;
     padding-top: 20px;
     margin: 0;
-    background: linear-gradient(to bottom, #fff, #ccc); /* White to gray gradient */
+    background: linear-gradient(to bottom, #5074b3, #3c5e9c);
+
 
 
 }
@@ -54,11 +56,11 @@ header nav ul li a {
 
 .head-content {
 padding-top: 20px;
-background: linear-gradient(to bottom, #ccc, #fff);
+background: linear-gradient(to bottom, #5074b3, #3c5e9c);
 }
 
 .head-content-home{
-    background: linear-gradient(to bottom, #fff, #ccc);
+    background: linear-gradient(to bottom, #5074b3, #3c5e9c);
     margin-bottom: 20px;
     }
 

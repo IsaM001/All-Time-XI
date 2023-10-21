@@ -1,7 +1,7 @@
 /* Body and Universal styling */
 
 body {
-    background: linear-gradient(to bottom, #5074b3, #3c5e9c);
+    background: linear-gradient(135deg, #64DFDF, #72EFDD, #80FFDB);
 
     color: black;
     height: 100vh;
@@ -46,7 +46,7 @@ header nav ul li a {
     margin: 0;
     padding-top: 20px;
     margin: 0;
-    background: linear-gradient(to bottom, #5074b3, #3c5e9c);
+    background: linear-gradient(135deg, #64DFDF, #72EFDD, #80FFDB);
 
 
 
@@ -56,11 +56,11 @@ header nav ul li a {
 
 .head-content {
 padding-top: 20px;
-background: linear-gradient(to bottom, #5074b3, #3c5e9c);
+background: linear-gradient(135deg, #64DFDF, #72EFDD, #80FFDB);
 }
 
 .head-content-home{
-    background: linear-gradient(to bottom, #5074b3, #3c5e9c);
+    background: linear-gradient(135deg, #64DFDF, #72EFDD, #80FFDB);
     margin-bottom: 20px;
     }
 
@@ -139,7 +139,7 @@ background: linear-gradient(to bottom, #5074b3, #3c5e9c);
 
 .card {
     width: calc(25% - 20px);
-    background: linear-gradient(to bottom, #ffdb58, #ffaf00); 
+    background: linear-gradient(135deg, #5390D9, #4EA8DE, #48BFE3);
     padding: 10px;
     box-sizing: border-box;
     text-align: center;
@@ -240,7 +240,7 @@ background: linear-gradient(to bottom, #5074b3, #3c5e9c);
     padding: 20px;
     margin: 0 auto;
     max-width: 600px;
-    background: linear-gradient(to bottom, #ffdb58, #ffaf00); 
+    background: linear-gradient(135deg, #5390D9, #4EA8DE, #48BFE3);
 }
   
   form {
